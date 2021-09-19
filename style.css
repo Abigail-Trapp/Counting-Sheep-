@@ -1,0 +1,13 @@
+*{
+    background-color:rgb(65, 180, 65);
+}
+img {
+    width: 1200px;
+    margin-left: 150px;
+    height: 300px;
+    size: 10px;
+}
+p {
+    font-family: sans-serif;
+    font-size: 30px;
+}

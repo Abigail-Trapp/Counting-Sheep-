@@ -8,3 +8,10 @@ var countSheep = function (num){ //function is countSheep argument is num
   }
 
 // https://www.codewars.com/kata/5b077ebdaf15be5c7f000077
+
+
+let number = prompt("Let's count sheep! How many sheep are you counting?")
+let divSpace = document.getElementById("divSpace")
+let p = document.createElement("p")
+p.innerHTML=(`${countSheep(number)}`)
+divSpace.append(p)
